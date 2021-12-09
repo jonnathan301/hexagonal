@@ -1,0 +1,33 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "description": "Prospera.",
+      "version": "1.0.0",
+      "title": "hexagonal test"
+    },
+    "paths": {
+        "/powershell/ipconfig": {
+            "get": {
+              "tags": [
+                "powershell"
+              ],           
+              "responses": {
+                "default": {
+                  "description": "successful operation"
+                }
+              }            
+        }
+    }
+    },
+    "externalDocs": {
+        "description": "Find out more about Swagger",
+        "url": "http://swagger.io"
+      },
+      "servers": [
+        {
+          "url": "http://localhost:3006/api"
+        }
+      ]
+      
+}
+
